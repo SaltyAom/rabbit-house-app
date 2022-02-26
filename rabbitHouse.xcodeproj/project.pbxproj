@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D502425B27C909950070BF35 /* rehelloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D502425A27C909950070BF35 /* rehelloApp.swift */; };
+		D502425D27C909950070BF35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D502425C27C909950070BF35 /* ContentView.swift */; };
+		D502425F27C909950070BF35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D502425E27C909950070BF35 /* Assets.xcassets */; };
+		D502426227C909950070BF35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D502426127C909950070BF35 /* Preview Assets.xcassets */; };
+		D502426C27C909950070BF35 /* rehelloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D502426B27C909950070BF35 /* rehelloTests.swift */; };
+		D502427627C909950070BF35 /* rehelloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D502427527C909950070BF35 /* rehelloUITests.swift */; };
+		D502427827C909950070BF35 /* rehelloUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D502427727C909950070BF35 /* rehelloUITestsLaunchTests.swift */; };
+		D502428527C948130070BF35 /* rabbitHouseMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D502428427C948130070BF35 /* rabbitHouseMenu.swift */; };
+		D502428727C94DA80070BF35 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D502428627C94DA80070BF35 /* MenuView.swift */; };
+		D502428927C95BD10070BF35 /* language.swift in Sources */ = {isa = PBXBuildFile; fileRef = D502428827C95BD10070BF35 /* language.swift */; };
+		D502428B27C964B30070BF35 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D502428A27C964B30070BF35 /* MenuItem.swift */; };
+		D502428D27C9E5B30070BF35 /* RabbitHouseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D502428C27C9E5B30070BF35 /* RabbitHouseView.swift */; };
+		D502428F27C9E61F0070BF35 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D502428E27C9E61F0070BF35 /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D502426827C909950070BF35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D502424F27C909950070BF35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D502425627C909950070BF35;
+			remoteInfo = rehello;
+		};
+		D502427227C909950070BF35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D502424F27C909950070BF35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D502425627C909950070BF35;
+			remoteInfo = rehello;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D502425727C909950070BF35 /* Rabbit House.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rabbit House.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D502425A27C909950070BF35 /* rehelloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rehelloApp.swift; sourceTree = "<group>"; };
+		D502425C27C909950070BF35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D502425E27C909950070BF35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D502426127C909950070BF35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D502426727C909950070BF35 /* rabbitHouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rabbitHouseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D502426B27C909950070BF35 /* rehelloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rehelloTests.swift; sourceTree = "<group>"; };
+		D502427127C909950070BF35 /* rabbitHouseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rabbitHouseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D502427527C909950070BF35 /* rehelloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rehelloUITests.swift; sourceTree = "<group>"; };
+		D502427727C909950070BF35 /* rehelloUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rehelloUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D502428427C948130070BF35 /* rabbitHouseMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rabbitHouseMenu.swift; sourceTree = "<group>"; };
+		D502428627C94DA80070BF35 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		D502428827C95BD10070BF35 /* language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = language.swift; sourceTree = "<group>"; };
+		D502428A27C964B30070BF35 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		D502428C27C9E5B30070BF35 /* RabbitHouseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabbitHouseView.swift; sourceTree = "<group>"; };
+		D502428E27C9E61F0070BF35 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D502425427C909950070BF35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D502426427C909950070BF35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D502426E27C909950070BF35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D502424E27C909950070BF35 = {
+			isa = PBXGroup;
+			children = (
+				D502425927C909950070BF35 /* rabbitHouse */,
+				D502426A27C909950070BF35 /* rabbitHouseTests */,
+				D502427427C909950070BF35 /* rabbitHouseUITests */,
+				D502425827C909950070BF35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D502425827C909950070BF35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D502425727C909950070BF35 /* Rabbit House.app */,
+				D502426727C909950070BF35 /* rabbitHouseTests.xctest */,
+				D502427127C909950070BF35 /* rabbitHouseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D502425927C909950070BF35 /* rabbitHouse */ = {
+			isa = PBXGroup;
+			children = (
+				D502428827C95BD10070BF35 /* language.swift */,
+				D502425A27C909950070BF35 /* rehelloApp.swift */,
+				D502425C27C909950070BF35 /* ContentView.swift */,
+				D502428E27C9E61F0070BF35 /* SettingsView.swift */,
+				D502428C27C9E5B30070BF35 /* RabbitHouseView.swift */,
+				D502428627C94DA80070BF35 /* MenuView.swift */,
+				D502428A27C964B30070BF35 /* MenuItem.swift */,
+				D502428427C948130070BF35 /* rabbitHouseMenu.swift */,
+				D502425E27C909950070BF35 /* Assets.xcassets */,
+				D502426027C909950070BF35 /* Preview Content */,
+			);
+			path = rabbitHouse;
+			sourceTree = "<group>";
+		};
+		D502426027C909950070BF35 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D502426127C909950070BF35 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D502426A27C909950070BF35 /* rabbitHouseTests */ = {
+			isa = PBXGroup;
+			children = (
+				D502426B27C909950070BF35 /* rehelloTests.swift */,
+			);
+			path = rabbitHouseTests;
+			sourceTree = "<group>";
+		};
+		D502427427C909950070BF35 /* rabbitHouseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D502427527C909950070BF35 /* rehelloUITests.swift */,
+				D502427727C909950070BF35 /* rehelloUITestsLaunchTests.swift */,
+			);
+			path = rabbitHouseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D502425627C909950070BF35 /* rabbitHouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D502427B27C909950070BF35 /* Build configuration list for PBXNativeTarget "rabbitHouse" */;
+			buildPhases = (
+				D502425327C909950070BF35 /* Sources */,
+				D502425427C909950070BF35 /* Frameworks */,
+				D502425527C909950070BF35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rabbitHouse;
+			productName = rehello;
+			productReference = D502425727C909950070BF35 /* Rabbit House.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D502426627C909950070BF35 /* rabbitHouseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D502427E27C909950070BF35 /* Build configuration list for PBXNativeTarget "rabbitHouseTests" */;
+			buildPhases = (
+				D502426327C909950070BF35 /* Sources */,
+				D502426427C909950070BF35 /* Frameworks */,
+				D502426527C909950070BF35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D502426927C909950070BF35 /* PBXTargetDependency */,
+			);
+			name = rabbitHouseTests;
+			productName = rehelloTests;
+			productReference = D502426727C909950070BF35 /* rabbitHouseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D502427027C909950070BF35 /* rabbitHouseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D502428127C909950070BF35 /* Build configuration list for PBXNativeTarget "rabbitHouseUITests" */;
+			buildPhases = (
+				D502426D27C909950070BF35 /* Sources */,
+				D502426E27C909950070BF35 /* Frameworks */,
+				D502426F27C909950070BF35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D502427327C909950070BF35 /* PBXTargetDependency */,
+			);
+			name = rabbitHouseUITests;
+			productName = rehelloUITests;
+			productReference = D502427127C909950070BF35 /* rabbitHouseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D502424F27C909950070BF35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					D502425627C909950070BF35 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					D502426627C909950070BF35 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D502425627C909950070BF35;
+					};
+					D502427027C909950070BF35 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D502425627C909950070BF35;
+					};
+				};
+			};
+			buildConfigurationList = D502425227C909950070BF35 /* Build configuration list for PBXProject "rabbitHouse" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D502424E27C909950070BF35;
+			productRefGroup = D502425827C909950070BF35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D502425627C909950070BF35 /* rabbitHouse */,
+				D502426627C909950070BF35 /* rabbitHouseTests */,
+				D502427027C909950070BF35 /* rabbitHouseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D502425527C909950070BF35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D502426227C909950070BF35 /* Preview Assets.xcassets in Resources */,
+				D502425F27C909950070BF35 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D502426527C909950070BF35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D502426F27C909950070BF35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D502425327C909950070BF35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D502428527C948130070BF35 /* rabbitHouseMenu.swift in Sources */,
+				D502428F27C9E61F0070BF35 /* SettingsView.swift in Sources */,
+				D502428927C95BD10070BF35 /* language.swift in Sources */,
+				D502428727C94DA80070BF35 /* MenuView.swift in Sources */,
+				D502428B27C964B30070BF35 /* MenuItem.swift in Sources */,
+				D502425D27C909950070BF35 /* ContentView.swift in Sources */,
+				D502425B27C909950070BF35 /* rehelloApp.swift in Sources */,
+				D502428D27C9E5B30070BF35 /* RabbitHouseView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D502426327C909950070BF35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D502426C27C909950070BF35 /* rehelloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D502426D27C909950070BF35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D502427827C909950070BF35 /* rehelloUITestsLaunchTests.swift in Sources */,
+				D502427627C909950070BF35 /* rehelloUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D502426927C909950070BF35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D502425627C909950070BF35 /* rabbitHouse */;
+			targetProxy = D502426827C909950070BF35 /* PBXContainerItemProxy */;
+		};
+		D502427327C909950070BF35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D502425627C909950070BF35 /* rabbitHouse */;
+			targetProxy = D502427227C909950070BF35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D502427927C909950070BF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D502427A27C909950070BF35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D502427C27C909950070BF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"rabbitHouse/Preview Content\"";
+				DEVELOPMENT_TEAM = S7T3G8TVVF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saltyaom.rabbitHouse;
+				PRODUCT_NAME = "Rabbit House";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D502427D27C909950070BF35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"rabbitHouse/Preview Content\"";
+				DEVELOPMENT_TEAM = S7T3G8TVVF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saltyaom.rabbitHouse;
+				PRODUCT_NAME = "Rabbit House";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D502427F27C909950070BF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7T3G8TVVF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saltyaom.rehelloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rabbitHouse.app/rabbitHouse";
+			};
+			name = Debug;
+		};
+		D502428027C909950070BF35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7T3G8TVVF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saltyaom.rehelloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rabbitHouse.app/rabbitHouse";
+			};
+			name = Release;
+		};
+		D502428227C909950070BF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7T3G8TVVF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saltyaom.rehelloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = rehello;
+			};
+			name = Debug;
+		};
+		D502428327C909950070BF35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7T3G8TVVF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saltyaom.rehelloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = rehello;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D502425227C909950070BF35 /* Build configuration list for PBXProject "rabbitHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D502427927C909950070BF35 /* Debug */,
+				D502427A27C909950070BF35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D502427B27C909950070BF35 /* Build configuration list for PBXNativeTarget "rabbitHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D502427C27C909950070BF35 /* Debug */,
+				D502427D27C909950070BF35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D502427E27C909950070BF35 /* Build configuration list for PBXNativeTarget "rabbitHouseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D502427F27C909950070BF35 /* Debug */,
+				D502428027C909950070BF35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D502428127C909950070BF35 /* Build configuration list for PBXNativeTarget "rabbitHouseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D502428227C909950070BF35 /* Debug */,
+				D502428327C909950070BF35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D502424F27C909950070BF35 /* Project object */;
+}
