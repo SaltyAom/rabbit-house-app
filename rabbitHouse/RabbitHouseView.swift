@@ -19,7 +19,26 @@ struct RabbitHouseView: View {
     
     @State
     private var success: Bool? = nil
+    
+    @State
+    private var search: String = ""
 
+    private var searchResults: [RabbitMenu] {
+        if(rabbitHouse == nil) {
+            return []
+        }
+        
+       if search.isEmpty {
+           return []
+       } else {
+           return menuTypes.flatMap { type in
+               rabbitHouse!.byKey(type).filter { menu in
+                   return menu.name.en.lowercased().contains(search.lowercased()) || menu.name.jp.contains(search)
+               }
+           }
+       }
+   }
+    
     func loadRabbitHouse() async {
         if(rabbitHouse != nil) {
             return
@@ -39,6 +58,8 @@ struct RabbitHouseView: View {
             menuTypes = Mirror(reflecting: rabbitHouseData)
                 .children.map { v in rabbitHouseData.formatKey(v.label.unsafelyUnwrapped)
                 }
+            
+            print("G")
 
             success = true
         } catch {
@@ -63,7 +84,7 @@ struct RabbitHouseView: View {
                             }
                         }
                     }
-                } else if(!success.unsafelyUnwrapped) {
+                } else if !success.unsafelyUnwrapped {
                     Text("Can't connect to Rabbit House")
                         .font(.system(size: 21))
                     Spacer()
@@ -86,27 +107,36 @@ struct RabbitHouseView: View {
                     .background(.blue)
                     .cornerRadius(8)
                 } else {
-                    List {
-                        Section(header: Text("Table of Content")) {
+                    if search.isEmpty {
+                        List {
+                            Section(header: Text("Table of Content")) {
+                                ForEach(menuTypes, id: \.self) { type in
+                                    NavigationLink(destination: MenuView(title: type.capitalized, menus: rabbitHouse!.byKey(type))) {
+                                        Text(type.capitalized)
+                                            .padding(.vertical, 4)
+                                    }
+                                }
+                            }
+                            
                             ForEach(menuTypes, id: \.self) { type in
-                                NavigationLink(destination: MenuView(title: type.capitalized, menus: rabbitHouse!.byKey(type))) {
-                                    Text(type.capitalized)
-                                        .padding(.vertical, 4)
+                                Section(header: Text(type.capitalized)) {
+                                    ForEach(rabbitHouse!.byKey(type), id: \.name.en) { menu in
+                                        MenuItem(menu)
+                                    }
                                 }
                             }
                         }
-                        
-                        ForEach(menuTypes, id: \.self) { type in
-                            Section(header: Text(type.capitalized)) {
-                                ForEach(rabbitHouse!.byKey(type), id: \.name.en) { menu in
-                                    MenuItem(menu)
-                                }
+                    } else {
+                        List {
+                            ForEach(searchResults, id: \.name.en) { menu in
+                                MenuItem(menu)
                             }
                         }
                     }
                 }
             }
             .navigationTitle(Text("Rabbit House"))
+            .searchable(text: $search, prompt: "Find menu")
             .toolbar {
                 ToolbarItemGroup(placement: .navigationBarTrailing) {
                     Picker("Hi", selection: $language.value) {
@@ -126,5 +156,6 @@ struct RabbitHouseView: View {
 struct RabbitHouseView_Previews: PreviewProvider {
     static var previews: some View {
         RabbitHouseView()
+            .environmentObject(Language())
     }
 }
