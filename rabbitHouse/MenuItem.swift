@@ -1,6 +1,6 @@
 //
 //  MenuItem.swift
-//  rehello
+//  rabbitHouse
 //
 //  Created by saltyaom on 26/2/2565 BE.
 //
@@ -11,7 +11,7 @@ class Intl {
     init(_ menu: RabbitMenu) {
         English = Translated(title: menu.name.en, sub: menu.name.jp, formatter: "$%.2f", price: menu.price.usd)
 
-        Japanese = Translated(title: menu.name.jp, sub: menu.name.en, formatter: "¥%d", price: menu.price.jpy)
+        Japanese = Translated(title: menu.name.jp, sub: menu.name.en, formatter: "%d円", price: menu.price.jpy)
     }
     
     let English, Japanese: Translated

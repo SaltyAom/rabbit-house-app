@@ -1,6 +1,6 @@
 //
-//  rabbitHouseMenu.swift
-//  rehello
+//  RabbitHouseMenu.swift
+//  rabbitHouse
 //
 //  Created by saltyaom on 26/2/2565 BE.
 //
@@ -17,7 +17,7 @@ struct RabbitHouse: Codable {
         case arrangeCoffee = "arrange coffee"
         case others, food
     }
-    }
+}
 
 extension RabbitHouse {
     func byKey(_ name: String) -> [RabbitMenu] {

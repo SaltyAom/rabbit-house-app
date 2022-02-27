@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D502425B27C909950070BF35 /* rehelloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D502425A27C909950070BF35 /* rehelloApp.swift */; };
+		D502425B27C909950070BF35 /* RabbitHouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D502425A27C909950070BF35 /* RabbitHouse.swift */; };
 		D502425D27C909950070BF35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D502425C27C909950070BF35 /* ContentView.swift */; };
 		D502425F27C909950070BF35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D502425E27C909950070BF35 /* Assets.xcassets */; };
 		D502426227C909950070BF35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D502426127C909950070BF35 /* Preview Assets.xcassets */; };
 		D502426C27C909950070BF35 /* rehelloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D502426B27C909950070BF35 /* rehelloTests.swift */; };
 		D502427627C909950070BF35 /* rehelloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D502427527C909950070BF35 /* rehelloUITests.swift */; };
 		D502427827C909950070BF35 /* rehelloUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D502427727C909950070BF35 /* rehelloUITestsLaunchTests.swift */; };
-		D502428527C948130070BF35 /* rabbitHouseMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D502428427C948130070BF35 /* rabbitHouseMenu.swift */; };
+		D502428527C948130070BF35 /* RabbitHouseMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D502428427C948130070BF35 /* RabbitHouseMenu.swift */; };
 		D502428727C94DA80070BF35 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D502428627C94DA80070BF35 /* MenuView.swift */; };
-		D502428927C95BD10070BF35 /* language.swift in Sources */ = {isa = PBXBuildFile; fileRef = D502428827C95BD10070BF35 /* language.swift */; };
+		D502428927C95BD10070BF35 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = D502428827C95BD10070BF35 /* Language.swift */; };
 		D502428B27C964B30070BF35 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D502428A27C964B30070BF35 /* MenuItem.swift */; };
 		D502428D27C9E5B30070BF35 /* RabbitHouseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D502428C27C9E5B30070BF35 /* RabbitHouseView.swift */; };
 		D502428F27C9E61F0070BF35 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D502428E27C9E61F0070BF35 /* SettingsView.swift */; };
@@ -41,7 +41,7 @@
 
 /* Begin PBXFileReference section */
 		D502425727C909950070BF35 /* Rabbit House.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rabbit House.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D502425A27C909950070BF35 /* rehelloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rehelloApp.swift; sourceTree = "<group>"; };
+		D502425A27C909950070BF35 /* RabbitHouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabbitHouse.swift; sourceTree = "<group>"; };
 		D502425C27C909950070BF35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D502425E27C909950070BF35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D502426127C909950070BF35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -50,9 +50,9 @@
 		D502427127C909950070BF35 /* rabbitHouseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rabbitHouseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D502427527C909950070BF35 /* rehelloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rehelloUITests.swift; sourceTree = "<group>"; };
 		D502427727C909950070BF35 /* rehelloUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rehelloUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		D502428427C948130070BF35 /* rabbitHouseMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rabbitHouseMenu.swift; sourceTree = "<group>"; };
+		D502428427C948130070BF35 /* RabbitHouseMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabbitHouseMenu.swift; sourceTree = "<group>"; };
 		D502428627C94DA80070BF35 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
-		D502428827C95BD10070BF35 /* language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = language.swift; sourceTree = "<group>"; };
+		D502428827C95BD10070BF35 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
 		D502428A27C964B30070BF35 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		D502428C27C9E5B30070BF35 /* RabbitHouseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabbitHouseView.swift; sourceTree = "<group>"; };
 		D502428E27C9E61F0070BF35 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -106,14 +106,14 @@
 		D502425927C909950070BF35 /* rabbitHouse */ = {
 			isa = PBXGroup;
 			children = (
-				D502428827C95BD10070BF35 /* language.swift */,
-				D502425A27C909950070BF35 /* rehelloApp.swift */,
+				D502428827C95BD10070BF35 /* Language.swift */,
+				D502425A27C909950070BF35 /* RabbitHouse.swift */,
 				D502425C27C909950070BF35 /* ContentView.swift */,
 				D502428E27C9E61F0070BF35 /* SettingsView.swift */,
 				D502428C27C9E5B30070BF35 /* RabbitHouseView.swift */,
 				D502428627C94DA80070BF35 /* MenuView.swift */,
 				D502428A27C964B30070BF35 /* MenuItem.swift */,
-				D502428427C948130070BF35 /* rabbitHouseMenu.swift */,
+				D502428427C948130070BF35 /* RabbitHouseMenu.swift */,
 				D502425E27C909950070BF35 /* Assets.xcassets */,
 				D502426027C909950070BF35 /* Preview Content */,
 			);
@@ -275,13 +275,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D502428527C948130070BF35 /* rabbitHouseMenu.swift in Sources */,
+				D502428527C948130070BF35 /* RabbitHouseMenu.swift in Sources */,
 				D502428F27C9E61F0070BF35 /* SettingsView.swift in Sources */,
-				D502428927C95BD10070BF35 /* language.swift in Sources */,
+				D502428927C95BD10070BF35 /* Language.swift in Sources */,
 				D502428727C94DA80070BF35 /* MenuView.swift in Sources */,
 				D502428B27C964B30070BF35 /* MenuItem.swift in Sources */,
 				D502425D27C909950070BF35 /* ContentView.swift in Sources */,
-				D502425B27C909950070BF35 /* rehelloApp.swift in Sources */,
+				D502425B27C909950070BF35 /* RabbitHouse.swift in Sources */,
 				D502428D27C9E5B30070BF35 /* RabbitHouseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

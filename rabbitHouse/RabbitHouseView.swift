@@ -1,6 +1,6 @@
 //
 //  RabbitHouseView.swift
-//  rehello
+//  rabbitHouse
 //
 //  Created by saltyaom on 26/2/2565 BE.
 //
@@ -47,7 +47,7 @@ struct RabbitHouseView: View {
         success = nil
 
         do {
-            let url = URL(string: "https://is-the-order-a-rabbit-api.onrender.com")!
+            let url = URL(string: "https://rabbit-house.saltyaom.com")!
 
             let (data, _) = try await URLSession.shared.data(from: url)
 
